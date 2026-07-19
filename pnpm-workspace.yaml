@@ -4,5 +4,8 @@ packages:
 onlyBuiltDependencies:
   - esbuild
   - sharp
+  - prisma
+  - "@prisma/client"
+  - "@prisma/engines"
 neverBuiltDependencies:
   - unrs-resolver

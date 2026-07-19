@@ -6,6 +6,17 @@
   "types": "src/index.ts",
   "scripts": {
     "generate": "prisma generate",
-    "migrate": "prisma migrate dev"
+    "migrate": "prisma migrate dev",
+    "check-connection": "tsx --env-file=.env src/check-connection.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "prisma": "^6.9.0",
+    "@prisma/client": "^6.9.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.9.3",
+    "vitest": "^3.0.5"
   }
 }
