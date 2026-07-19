@@ -1,0 +1,20 @@
+{
+  "name": "@govlens/worker",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@govlens/db": "workspace:*",
+    "@govlens/claude-client": "workspace:*",
+    "@govlens/sam-gov-client": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "tsx": "^4.19.2",
+    "@types/node": "^20.19.43"
+  }
+}

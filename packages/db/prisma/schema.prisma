@@ -1,0 +1,10 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+// Models added when the schema is designed (opportunities, users, matches, etc.)

@@ -1,0 +1,12 @@
+{
+  "name": "govlens-ai",
+  "private": true,
+  "version": "0.0.1",
+  "packageManager": "pnpm@11.9.0",
+  "scripts": {
+    "dev": "pnpm --filter @govlens/web dev",
+    "build": "pnpm -r --if-present run build",
+    "lint": "pnpm -r --if-present run lint",
+    "test": "pnpm -r --if-present run test"
+  }
+}
